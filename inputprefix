@@ -1,0 +1,55 @@
+
+      <div class="input-group prefix">                           
+        <span class="input-group-addon">Năm</span>
+        <input type="number"  onkeydown="return false" value=2019 min=2019 max=2020 name="input">
+      </div>
+      
+      
+.input-group-addon {
+    padding: 6px 6px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+   
+    border: 1px solid #ccc;
+  border-right:0px;
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+input {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 80%;
+    margin-bottom: 0;
+    display: table-cell;
+    padding: 6px 6px;
+
+    border: 1px solid #ccc;
+  border-left:0px;
+    margin: 0;
+  
+}
+input:focus{
+    outline: none;
+}
+
+.prefix input {
+    border-radius: 0px 4px 4px 0px;
+}
+.prefix .input-group-addon {
+    border-right: 0;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.input-group {
+  width:100px;
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
